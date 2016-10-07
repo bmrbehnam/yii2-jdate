@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Yii2 jalali date class
 ======================
 Yii2 jalali date class
@@ -29,3 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= \jdate\AutoloadExample::widget(); ?>```
+=======
+# yii2-jdate
+Yii2 jalali date class
+>>>>>>> 88fabf2d5e6bf0553587ad627ab70e73f1884c18
