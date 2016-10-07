@@ -1,0 +1,22 @@
+{
+    "name": "behnam-rasouli/yii2-jdate",
+    "description": "Yii2 jalali date class",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","jdate","jalali","date","jalalidate"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "behnam rasouli",
+            "email": "bmrbehnam@gmail.com",
+            "site": "http://iwebpro.ir"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jdate\\": ""
+        }
+    }
+}
