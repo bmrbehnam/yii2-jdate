@@ -1,9 +1,10 @@
 <?php
 
 namespace jdate;
+use DateTimeZone;
+use DateTime;
 
-
-class Jdate extends \yii\base\Widget {
+class Jdate {
 
     /**
      * Defaults
