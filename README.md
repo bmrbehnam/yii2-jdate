@@ -9,7 +9,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist behnam-rasouli/yii2-jdate "dev-master"
+composer require --prefer-dist behnam-rasouli/yii2-jdate "dev-master"
 ```
 
 or add
@@ -24,10 +24,22 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+simply use it in your code by  :
+
 
 ```php
-<?= \jdate\AutoloadExample::widget(); ?>```
+new \jdate\Jdate();```
+
+
+example : 
+```php
+$date = new \jdate\Jdate();
+echo $date->date('Y/m/d H:i', time());
+```
+	
 
 # yii2-jdate
 Yii2 jalali date class
+
+
+Good luck :)
